@@ -1,0 +1,327 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    vertical-align: baseline;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+.main{
+    width: 500px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.main button a{
+    text-decoration: none;
+    color: rgb(50, 50, 203);
+}
+
+
+.side h3{
+    font-weight: bold;
+    font-size: larger;
+    line-height: 30px;
+}
+
+.side{
+    width: 400px;
+    float: right;
+    box-sizing: border-box;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*Style*/
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    background-color: lightgray;
+    color: black;
+    background-image: url(/img/b.jpg)
+}
+
+.container{
+    width: 80%;
+    padding: 55px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
+    background-image: url(/img/backrground.jpg);
+}
+
+.main button{
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(37, 116, 207);
+}
+
+nav{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    position: fixed;
+    background-color:rgb(118, 175, 199);
+    z-index: 99;
+}
+
+.header ul{
+    text-align: center;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    padding: 5px;
+}
+
+.header ul li a:hover{
+    background-color: burlywood;
+    color: white;
+}
+
+
+.content{
+    padding: 20px;
+}
+
+
+.content h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(18, 81, 114);
+}
+
+.content h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(10, 40, 77);
+}
+
+
+.content p{
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+
+.side img{
+    width: 100%;
+}
+
+.content{
+    padding: 20px;
+}
+
+/* kedua */
+.main2 h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(25, 84, 116);
+}
+
+.main2 ul{
+    text-align: center;
+}
+
+.main2 ul li{
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(11, 65, 94);
+}
+
+.main2 h3{
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    color: rgb(39, 93, 122)
+}
+.main2 ul li a{
+    text-decoration: none;
+}
+
+/* ketiga */
+.main3 h2{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(19, 140, 205)
+}
+
+.main3 ul{
+    text-align: center;
+}
+
+.main3 ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.main3 ul li img{
+    width: 210px;
+    height: 290px;
+}
+
+.main4 img{
+    text-align: center;
+    width: 1000px;
+    height: 260px;
+    border-radius: 20px;
+}
+
+.main5 {
+    width: 1000px;
+    height: 290px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+}
+
+.main5 .kotak1 {
+    width: 200px;
+    height: 200px;
+    margin-top: 25px;
+    background-color: rgb(135, 183, 199);
+    border-radius: 10px;
+    margin-right: 35px;
+    margin-left: 20px;
+    float: left;
+}
+
+.main5 .kotak1 img{
+    height: 120px;
+    width: 150px;
+    margin-left: 27px;
+    margin-top: -70px;
+    position: relative;
+    
+}
+
+.main5 .kotak2 {
+    width: 200px;
+    height: 200px;
+    margin-top: 25px;
+    background-color: rgb(135, 183, 199);
+    border-radius: 10px;
+    margin-right: 35px;
+    float: left;
+}
+.main5 .kotak2 img{
+    height: 132px;
+    margin-left: 20px;
+    margin-top: -82px;
+    position: relative;
+    
+}
+
+
+.main5 .kotak3 {
+    width: 200px;
+    height: 200px;
+    margin-top: 25px;
+    background-color: rgb(135, 183, 199);
+    border-radius: 10px;
+    margin-right: 35px;
+    float: left;
+}
+
+.main5 .kotak3 img{
+    height: 140px;
+    width: 150px;
+    margin-left: 24px;
+    margin-top: -90px;
+    position: relative;
+    
+}
+
+
+.main5 .kotak4 {
+    width: 200px;
+    height: 200px;
+    margin-top: 25px;
+    background-color: rgb(135, 183, 199);
+    border-radius: 10px;
+    margin-right: 35px;
+    float: left;
+}
+
+.main5 .kotak4 img{
+    height: 140px;
+    width: 150px;
+    margin-left: 24px;
+    margin-top: -74px;
+    position: relative;
+    
+}
+
+.main5 p{
+    text-align: center;
+    color: white;
+}
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
